@@ -24,9 +24,11 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # The build output folder for Vite
-          branch: gh-pages # The branch to deploy to
+          folder: dist
+          branch: gh-pages

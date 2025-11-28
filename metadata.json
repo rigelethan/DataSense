@@ -1,0 +1,5 @@
+{
+  "name": "DataSense: Data Usage Calculator",
+  "description": "Calculate your monthly digital footprint, visualize your data usage, and discover your 'Data Persona' and global percentile using Gemini AI.",
+  "requestFramePermissions": []
+}
